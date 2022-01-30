@@ -81,21 +81,40 @@ namespace municipalitiesReports
 
         private void sorting(object sender, RoutedEventArgs e)
         {
-            List<Municipalities> newList = new List<Municipalities>();
-            
-            for (int i = 0; i < municipalities.Count; i++) {
-                string departament = municipalities[i].Nombre_Departamento.ToString();
-                
-                char[] x = departament.ToCharArray();
-                if (comboBox1.SelectedItem.Equals(x[0]))
-                 {
-                      newList.Add(municipalities[i]);
-                      
-                    
+            if (municipalities != null)
+            {
+                List<Municipalities> newList = new List<Municipalities>();
+
+                for (int i = 0; i < municipalities.Count; i++)
+                {
+                    string departament = municipalities[i].Nombre_Departamento.ToString();
+
+                    char[] x = departament.ToCharArray();
+                    if (comboBox1.SelectedItem.Equals(x[0]))
+                    {
+                        newList.Add(municipalities[i]);
+
+
+                    } 
+
                 }
-                
+                tableView.ItemsSource = newList;
             }
-            tableView.ItemsSource = newList;
+            else {
+                MessageBox.Show("No hay datos que filtrar");
+            }
+        }
+
+        private void refresh(object sender, RoutedEventArgs e)
+        {
+            if (municipalities != null)
+            {
+                tableView.ItemsSource = municipalities;
+                comboBox1.SelectedIndex = -1;
+            }
+            else {
+                MessageBox.Show("No hay nada que refrescar");
+            }
             
         }
 
