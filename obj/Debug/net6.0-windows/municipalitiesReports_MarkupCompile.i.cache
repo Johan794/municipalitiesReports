@@ -1,7 +1,7 @@
 ﻿municipalitiesReports
 1.0.0.0
 
-winexe
+exe
 C#
 .cs
 C:\Users\johan\OneDrive\Escritorio\ICESI\Quinto Semestre de Ingenieria de sistemas\Talleres\Proyecto integrador I\Taller C#\municipalitiesReports\obj\Debug\net6.0-windows\
@@ -16,5 +16,5 @@ C:\Users\johan\OneDrive\Escritorio\ICESI\Quinto Semestre de Ingenieria de sistem
 197-903302011
 MainWindow.xaml;
 
-False
+True
 

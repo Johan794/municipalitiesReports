@@ -19,12 +19,13 @@
 
         </DataGrid>
         <ComboBox HorizontalAlignment="Left" Margin="684,37,0,0" VerticalAlignment="Top" Width="120" Name="comboBox1"/>
-        <lvc:PieChart Margin="646,87,136,87" Grid.RowSpan="2" LegendLocation="Bottom" Series="{Binding seriesCollection}" DataClick="PieChart_DataClick" Hoverable="True">
-            
-            
+        <Button x:Name="sort" Content="Filtrar" HorizontalAlignment="Left" Margin="855,39,0,0" VerticalAlignment="Top" Click="sorting" RenderTransformOrigin="1.901,-2.403"/>
+        <lvc:PieChart Margin="640,92,142,82" Grid.RowSpan="2" LegendLocation="Bottom" Series="{Binding seriesCollection}" Hoverable="True" Name="pieChart">
+
+
         </lvc:PieChart>
     </Grid>
-    
+
 
 
 </Window>

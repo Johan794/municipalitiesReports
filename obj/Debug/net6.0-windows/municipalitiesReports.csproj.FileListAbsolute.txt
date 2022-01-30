@@ -42,7 +42,12 @@ C:\Users\PC_WIN10\source\repos\municipalities\obj\Debug\net6.0-windows\municipal
 C:\Users\PC_WIN10\source\repos\municipalities\obj\Debug\net6.0-windows\municipalitiesReports.genruntimeconfig.cache
 C:\Users\PC_WIN10\source\repos\municipalities\bin\Debug\net6.0-windows\DotNetProjects.DataVisualization.Toolkit.dll
 C:\Users\PC_WIN10\source\repos\municipalities\obj\Debug\net6.0-windows\municipalitiesReports.csproj.CopyComplete
+<<<<<<< HEAD
+C:\Users\PC_WIN10\source\repos\municipalities\bin\Debug\net6.0-windows\LiveCharts.dll
+C:\Users\PC_WIN10\source\repos\municipalities\bin\Debug\net6.0-windows\LiveCharts.Wpf.dll
+=======
 C:\Users\johan\OneDrive\Escritorio\ICESI\Quinto Semestre de Ingenieria de sistemas\Talleres\Proyecto integrador I\Taller C#\municipalitiesReports\bin\Debug\net6.0-windows\DotNetProjects.DataVisualization.Toolkit.dll
 C:\Users\johan\OneDrive\Escritorio\ICESI\Quinto Semestre de Ingenieria de sistemas\Talleres\Proyecto integrador I\Taller C#\municipalitiesReports\bin\Debug\net6.0-windows\LiveCharts.dll
 C:\Users\johan\OneDrive\Escritorio\ICESI\Quinto Semestre de Ingenieria de sistemas\Talleres\Proyecto integrador I\Taller C#\municipalitiesReports\bin\Debug\net6.0-windows\LiveCharts.Wpf.dll
 C:\Users\johan\OneDrive\Escritorio\ICESI\Quinto Semestre de Ingenieria de sistemas\Talleres\Proyecto integrador I\Taller C#\municipalitiesReports\obj\Debug\net6.0-windows\municipalitiesReports.csproj.CopyComplete
+>>>>>>> ec1569f1719763fde02b2a957afdf7b8d2365e09

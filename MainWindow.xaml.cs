@@ -30,6 +30,7 @@ namespace municipalitiesReports
     {
         public MainWindow()
         {
+            
             InitializeComponent();
             fillComboBox();
             seriesCollection = new SeriesCollection
@@ -49,13 +50,6 @@ namespace municipalitiesReports
                  new PieSeries
                 {
                     Title = "Area no municipada",
-                    Values = new ChartValues<ObservableValue>{new ObservableValue(0)},
-                    DataLabels = true
-                },
-
-                 new PieSeries
-                {
-                    Title = "Sin valor",
                     Values = new ChartValues<ObservableValue>{new ObservableValue(0)},
                     DataLabels = true
                 }
@@ -89,55 +83,16 @@ namespace municipalitiesReports
             }
 
         }
+
+        private List<Municipalities> municipalities;
+
         private void import_Click(object sender, EventArgs e) {
             OpenFileDialog open = new OpenFileDialog();
             open.ShowDialog();
             tableView.ItemsSource = LoadCSV(open.FileName);
+            municipalities = LoadCSV(open.FileName);
         }
 
-        private void initializeTableview() {
-            for (int i=0;i<10;i++) {
-                
-            }
-        }
-
-        private void import() {
-
-            OpenFileDialog openFile = new OpenFileDialog();
-            
-            if (openFile.ShowDialog()==true) {
-
-                var reader = new StreamReader(File.OpenRead(openFile.FileName));
-
-                List<string> column_1 = new List<string>();
-                List<string> column_2 = new List<string>();
-                List<string> column_3 = new List<string>();
-                List<string> column_4 = new List<string>();
-                List<string> column_5 = new List<string>();
-
-                while (!reader.EndOfStream) {
-                    var line = reader.ReadLine();
-                    var data = line.Split(';');
-
-                    column_1.Add(data[0]);
-                    column_2.Add(data[1]);
-                    column_3.Add(data[2]);
-                    column_4.Add(data[3]);
-                    column_5.Add(data[4]);
-
-                  
-                    
-                    
-                    
-
-                    foreach (var c in column_1) {
-                        Console.WriteLine(c);
-                    }
-                }
-            }
-            
-
-        }
 
         public List<Municipalities> LoadCSV(string csvFile) {
             var query = from l in File.ReadAllLines(csvFile)
@@ -153,10 +108,60 @@ namespace municipalitiesReports
             return query.ToList();
         }
 
-        private void PieChart_DataClick(object sender, LiveCharts.ChartPoint chartPoint)
+        private void sorting(object sender, RoutedEventArgs e)
         {
-
+            List<Municipalities> newList = new List<Municipalities>();
+            int serie1 = 0 , serie2 = 0 , serie3 = 0, nothing = 0;
+            for (int i = 0; i < municipalities.Count; i++) {
+                string departament = municipalities[i].Nombre_Departamento.ToString();
+                
+                char[] x = departament.ToCharArray();
+                if (comboBox1.SelectedItem.Equals(x[0]))
+                 {
+                      newList.Add(municipalities[i]);
+                         
+                }
+                
+            }
+            tableView.ItemsSource = newList;
+            foreach (Municipalities municipal in newList) {
+                if (municipal.Tipo.Equals("Municipio"))
+                {
+                    serie1++;
+                } else if (municipal.Tipo.Equals("Isla"))
+                {
+                    serie2++;
+                }else if (municipal.Tipo.Equals("Área no municipalizada"))
+                {
+                    serie3++;
+                }
+                          
+            }
+            pieChart.Series = new SeriesCollection
+             {
+                   new PieSeries
+                {
+                    Title = "Municipio",
+                    Values = new ChartValues<ObservableValue>{new ObservableValue(serie1)},
+                    DataLabels = true
+                },
+                 new PieSeries
+                {
+                    Title = "Isla",
+                    Values = new ChartValues<ObservableValue>{new ObservableValue(serie2)},
+                    DataLabels = true
+                },
+                 new PieSeries
+                {
+                    Title = "Area no municipada",
+                    Values = new ChartValues<ObservableValue>{new ObservableValue(serie3)},
+                    DataLabels = true
+                },
+             };
+            
         }
+
+        
 
         /*public static void import() {
             if (selectImport) {
