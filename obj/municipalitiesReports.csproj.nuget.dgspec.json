@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\johan\\OneDrive\\Escritorio\\ICESI\\Quinto Semestre de Ingenieria de sistemas\\Talleres\\Proyecto integrador I\\Taller C#\\municipalitiesReports\\municipalitiesReports.csproj": {}
+    "C:\\Users\\PC_WIN10\\source\\repos\\municipalities\\municipalitiesReports.csproj": {}
   },
   "projects": {
-    "C:\\Users\\johan\\OneDrive\\Escritorio\\ICESI\\Quinto Semestre de Ingenieria de sistemas\\Talleres\\Proyecto integrador I\\Taller C#\\municipalitiesReports\\municipalitiesReports.csproj": {
+    "C:\\Users\\PC_WIN10\\source\\repos\\municipalities\\municipalitiesReports.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\johan\\OneDrive\\Escritorio\\ICESI\\Quinto Semestre de Ingenieria de sistemas\\Talleres\\Proyecto integrador I\\Taller C#\\municipalitiesReports\\municipalitiesReports.csproj",
+        "projectUniqueName": "C:\\Users\\PC_WIN10\\source\\repos\\municipalities\\municipalitiesReports.csproj",
         "projectName": "municipalitiesReports",
-        "projectPath": "C:\\Users\\johan\\OneDrive\\Escritorio\\ICESI\\Quinto Semestre de Ingenieria de sistemas\\Talleres\\Proyecto integrador I\\Taller C#\\municipalitiesReports\\municipalitiesReports.csproj",
-        "packagesPath": "C:\\Users\\johan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\johan\\OneDrive\\Escritorio\\ICESI\\Quinto Semestre de Ingenieria de sistemas\\Talleres\\Proyecto integrador I\\Taller C#\\municipalitiesReports\\obj\\",
+        "projectPath": "C:\\Users\\PC_WIN10\\source\\repos\\municipalities\\municipalitiesReports.csproj",
+        "packagesPath": "C:\\Users\\PC_WIN10\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC_WIN10\\source\\repos\\municipalities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\johan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC_WIN10\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

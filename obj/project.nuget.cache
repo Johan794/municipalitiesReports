@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "qQGRDh62YVKZHSItNmRY0jKMSYLerbuP4nwpLxmtbjTdfUkCNngN5pgfyywYyhWyqfgXg1gLuV/os3YXLBGMhQ==",
+  "dgSpecHash": "9wVvWgR4jSVI+RFeDyjlkBLzH/NPNBPXTtICpUrsWou8oQ3low0oG72c3+qzECYcsmpVYTTjYAtB3etVZKapWQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\johan\\OneDrive\\Escritorio\\ICESI\\Quinto Semestre de Ingenieria de sistemas\\Talleres\\Proyecto integrador I\\Taller C#\\municipalitiesReports\\municipalitiesReports.csproj",
+  "projectFilePath": "C:\\Users\\PC_WIN10\\source\\repos\\municipalities\\municipalitiesReports.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\johan\\.nuget\\packages\\dotnetprojects.wpftoolkit.datavisualization\\6.1.94\\dotnetprojects.wpftoolkit.datavisualization.6.1.94.nupkg.sha512",
-    "C:\\Users\\johan\\.nuget\\packages\\livecharts\\0.9.7\\livecharts.0.9.7.nupkg.sha512",
-    "C:\\Users\\johan\\.nuget\\packages\\livecharts.wpf\\0.9.7\\livecharts.wpf.0.9.7.nupkg.sha512"
+    "C:\\Users\\PC_WIN10\\.nuget\\packages\\dotnetprojects.wpftoolkit.datavisualization\\6.1.94\\dotnetprojects.wpftoolkit.datavisualization.6.1.94.nupkg.sha512",
+    "C:\\Users\\PC_WIN10\\.nuget\\packages\\livecharts\\0.9.7\\livecharts.0.9.7.nupkg.sha512",
+    "C:\\Users\\PC_WIN10\\.nuget\\packages\\livecharts.wpf\\0.9.7\\livecharts.wpf.0.9.7.nupkg.sha512"
   ],
   "logs": [
     {
