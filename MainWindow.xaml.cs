@@ -28,6 +28,7 @@ namespace municipalitiesReports
         public MainWindow()
         {
             InitializeComponent();
+            fillComboBox();
         }
 
         /*static void Main(String[] args) {
@@ -43,6 +44,15 @@ namespace municipalitiesReports
             import();
         }*/
 
+        private void fillComboBox()
+        {
+            char[] alpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray();
+            foreach(char c in alpha)
+            {
+                comboBox1.Items.Add(c);
+            }
+
+        }
         private void import_Click(object sender, EventArgs e) {
             OpenFileDialog open = new OpenFileDialog();
             open.ShowDialog();
