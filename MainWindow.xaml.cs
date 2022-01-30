@@ -110,34 +110,43 @@ namespace municipalitiesReports
 
         private void sorting(object sender, RoutedEventArgs e)
         {
-            List<Municipalities> newList = new List<Municipalities>();
+ 
             int serie1 = 0 , serie2 = 0 , serie3 = 0, nothing = 0;
-            for (int i = 0; i < municipalities.Count; i++) {
-                string departament = municipalities[i].Nombre_Departamento.ToString();
-                
-                char[] x = departament.ToCharArray();
-                if (comboBox1.SelectedItem.Equals(x[0]))
-                 {
-                      newList.Add(municipalities[i]);
-                         
+            if (municipalities != null)
+            {
+                List<Municipalities> newList = new List<Municipalities>();
+
+                for (int i = 0; i < municipalities.Count; i++)
+                {
+                    string departament = municipalities[i].Nombre_Departamento.ToString();
+
+                    char[] x = departament.ToCharArray();
+                    if (comboBox1.SelectedItem.Equals(x[0]))
+                    {
+                        newList.Add(municipalities[i]);
+
+
+                    } 
                 }
-                
-            }
-            tableView.ItemsSource = newList;
-            foreach (Municipalities municipal in newList) {
-                if (municipal.Tipo.Equals("Municipio"))
+
+                tableView.ItemsSource = newList;
+                foreach (Municipalities municipal in newList)
                 {
-                    serie1++;
-                } else if (municipal.Tipo.Equals("Isla"))
-                {
-                    serie2++;
-                }else if (municipal.Tipo.Equals("Área no municipalizada"))
-                {
-                    serie3++;
+                    if (municipal.Tipo.Equals("Municipio"))
+                    {
+                        serie1++;
+                    }
+                    else if (municipal.Tipo.Equals("Isla"))
+                    {
+                        serie2++;
+                    }
+                    else if (municipal.Tipo.Equals("Área no municipalizada"))
+                    {
+                        serie3++;
+                    }
+
                 }
-                          
-            }
-            pieChart.Series = new SeriesCollection
+                pieChart.Series = new SeriesCollection
              {
                    new PieSeries
                 {
@@ -158,8 +167,25 @@ namespace municipalitiesReports
                     DataLabels = true
                 },
              };
-            
+
+            }
+            else {
+                MessageBox.Show("No hay datos que filtrar");
+            }
         }
+
+        private void refresh(object sender, RoutedEventArgs e)
+        {
+            if (municipalities != null)
+            {
+                tableView.ItemsSource = municipalities;
+                comboBox1.SelectedIndex = -1;
+            }
+            else {
+                MessageBox.Show("No hay nada que refrescar");
+            }
+            
+          }
 
         
 
