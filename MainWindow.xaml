@@ -4,14 +4,26 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:municipalitiesReports"
+        xmlns:DVC="clr-namespace:System.Windows.Controls.DataVisualization.Charting;assembly=DotNetProjects.DataVisualization.Toolkit"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid Margin="0,0,-59,0">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="397*"/>
-            <ColumnDefinition Width="0*"/>
-            <ColumnDefinition Width="403*"/>
-        </Grid.ColumnDefinitions>
+    <Grid Margin="0,0,-59,0" RenderTransformOrigin="0.5,0.5" Cursor="Hand">
 
+        <Grid.RowDefinitions>
+            <RowDefinition Height="323*"/>
+            <RowDefinition Height="111*"/>
+        </Grid.RowDefinitions>
+        <Button Content="Import" Click="import_Click" HorizontalAlignment="Left" Margin="40,29,0,0" VerticalAlignment="Top" Height="30" Width="109"/>
+        <DataGrid x:Name="tableView" Margin="29,87,0,87" HorizontalAlignment="Left" FontWeight="Bold" FontStyle="Oblique" Grid.RowSpan="2" Width="567">
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="column1" Header="Codigo Departamento"/>
+                <DataGridTextColumn x:Name="column2" Header="Codigo Municipio"/>
+                <DataGridTextColumn x:Name="column3" Header="Nombre Departamento"/>
+                <DataGridTextColumn x:Name="column4" Header="Nombre Municipio"/>
+                <DataGridTextColumn x:Name="column5" Header="Tipo"/>
+            </DataGrid.Columns>
+        </DataGrid>
     </Grid>
+
+
 </Window>

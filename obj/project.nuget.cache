@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "KowK8tCW6O7+WkLc1jpOFUv8Et8g8h8ukk+wTNkp0pYhRtIpatf0+wx4BLdRUBEKN11ky84UrHrEDAzVz7GBVg==",
+  "dgSpecHash": "98sIfW9qwlD0FwICI6LLF5LqooFgt60XIbEeDBHzTSdztZ0zpEDjx3S5VL4zlg6JI3MHlGSjZV13KuPTO7/KnA==",
   "success": true,
   "projectFilePath": "C:\\Users\\PC_WIN10\\source\\repos\\municipalities\\municipalitiesReports.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\PC_WIN10\\.nuget\\packages\\dotnetprojects.wpftoolkit.datavisualization\\6.1.94\\dotnetprojects.wpftoolkit.datavisualization.6.1.94.nupkg.sha512"
+  ],
   "logs": []
 }

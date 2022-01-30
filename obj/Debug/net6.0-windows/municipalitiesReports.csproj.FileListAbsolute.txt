@@ -1,0 +1,42 @@
+C:\Users\johan\OneDrive\Escritorio\ICESI\Quinto Semestre de Ingenieria de sistemas\Talleres\Proyecto integrador I\Taller C#\municipalitiesReports\bin\Debug\net6.0-windows\municipalitiesReports.exe
+C:\Users\johan\OneDrive\Escritorio\ICESI\Quinto Semestre de Ingenieria de sistemas\Talleres\Proyecto integrador I\Taller C#\municipalitiesReports\bin\Debug\net6.0-windows\municipalitiesReports.deps.json
+C:\Users\johan\OneDrive\Escritorio\ICESI\Quinto Semestre de Ingenieria de sistemas\Talleres\Proyecto integrador I\Taller C#\municipalitiesReports\bin\Debug\net6.0-windows\municipalitiesReports.runtimeconfig.json
+C:\Users\johan\OneDrive\Escritorio\ICESI\Quinto Semestre de Ingenieria de sistemas\Talleres\Proyecto integrador I\Taller C#\municipalitiesReports\bin\Debug\net6.0-windows\municipalitiesReports.dll
+C:\Users\johan\OneDrive\Escritorio\ICESI\Quinto Semestre de Ingenieria de sistemas\Talleres\Proyecto integrador I\Taller C#\municipalitiesReports\bin\Debug\net6.0-windows\ref\municipalitiesReports.dll
+C:\Users\johan\OneDrive\Escritorio\ICESI\Quinto Semestre de Ingenieria de sistemas\Talleres\Proyecto integrador I\Taller C#\municipalitiesReports\bin\Debug\net6.0-windows\municipalitiesReports.pdb
+C:\Users\johan\OneDrive\Escritorio\ICESI\Quinto Semestre de Ingenieria de sistemas\Talleres\Proyecto integrador I\Taller C#\municipalitiesReports\obj\Debug\net6.0-windows\municipalitiesReports.csproj.AssemblyReference.cache
+C:\Users\johan\OneDrive\Escritorio\ICESI\Quinto Semestre de Ingenieria de sistemas\Talleres\Proyecto integrador I\Taller C#\municipalitiesReports\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\johan\OneDrive\Escritorio\ICESI\Quinto Semestre de Ingenieria de sistemas\Talleres\Proyecto integrador I\Taller C#\municipalitiesReports\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\johan\OneDrive\Escritorio\ICESI\Quinto Semestre de Ingenieria de sistemas\Talleres\Proyecto integrador I\Taller C#\municipalitiesReports\obj\Debug\net6.0-windows\municipalitiesReports_MarkupCompile.cache
+C:\Users\johan\OneDrive\Escritorio\ICESI\Quinto Semestre de Ingenieria de sistemas\Talleres\Proyecto integrador I\Taller C#\municipalitiesReports\obj\Debug\net6.0-windows\municipalitiesReports_MarkupCompile.lref
+C:\Users\johan\OneDrive\Escritorio\ICESI\Quinto Semestre de Ingenieria de sistemas\Talleres\Proyecto integrador I\Taller C#\municipalitiesReports\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\johan\OneDrive\Escritorio\ICESI\Quinto Semestre de Ingenieria de sistemas\Talleres\Proyecto integrador I\Taller C#\municipalitiesReports\obj\Debug\net6.0-windows\municipalitiesReports.g.resources
+C:\Users\johan\OneDrive\Escritorio\ICESI\Quinto Semestre de Ingenieria de sistemas\Talleres\Proyecto integrador I\Taller C#\municipalitiesReports\obj\Debug\net6.0-windows\municipalitiesReports.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\johan\OneDrive\Escritorio\ICESI\Quinto Semestre de Ingenieria de sistemas\Talleres\Proyecto integrador I\Taller C#\municipalitiesReports\obj\Debug\net6.0-windows\municipalitiesReports.AssemblyInfoInputs.cache
+C:\Users\johan\OneDrive\Escritorio\ICESI\Quinto Semestre de Ingenieria de sistemas\Talleres\Proyecto integrador I\Taller C#\municipalitiesReports\obj\Debug\net6.0-windows\municipalitiesReports.AssemblyInfo.cs
+C:\Users\johan\OneDrive\Escritorio\ICESI\Quinto Semestre de Ingenieria de sistemas\Talleres\Proyecto integrador I\Taller C#\municipalitiesReports\obj\Debug\net6.0-windows\municipalitiesReports.csproj.CoreCompileInputs.cache
+C:\Users\johan\OneDrive\Escritorio\ICESI\Quinto Semestre de Ingenieria de sistemas\Talleres\Proyecto integrador I\Taller C#\municipalitiesReports\obj\Debug\net6.0-windows\municipalitiesReports.dll
+C:\Users\johan\OneDrive\Escritorio\ICESI\Quinto Semestre de Ingenieria de sistemas\Talleres\Proyecto integrador I\Taller C#\municipalitiesReports\obj\Debug\net6.0-windows\ref\municipalitiesReports.dll
+C:\Users\johan\OneDrive\Escritorio\ICESI\Quinto Semestre de Ingenieria de sistemas\Talleres\Proyecto integrador I\Taller C#\municipalitiesReports\obj\Debug\net6.0-windows\municipalitiesReports.pdb
+C:\Users\johan\OneDrive\Escritorio\ICESI\Quinto Semestre de Ingenieria de sistemas\Talleres\Proyecto integrador I\Taller C#\municipalitiesReports\obj\Debug\net6.0-windows\municipalitiesReports.genruntimeconfig.cache
+C:\Users\PC_WIN10\source\repos\municipalities\obj\Debug\net6.0-windows\municipalitiesReports.csproj.AssemblyReference.cache
+C:\Users\PC_WIN10\source\repos\municipalities\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\PC_WIN10\source\repos\municipalities\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\PC_WIN10\source\repos\municipalities\obj\Debug\net6.0-windows\municipalitiesReports_MarkupCompile.cache
+C:\Users\PC_WIN10\source\repos\municipalities\obj\Debug\net6.0-windows\municipalitiesReports_MarkupCompile.lref
+C:\Users\PC_WIN10\source\repos\municipalities\obj\Debug\net6.0-windows\municipalitiesReports.dll
+C:\Users\PC_WIN10\source\repos\municipalities\obj\Debug\net6.0-windows\ref\municipalitiesReports.dll
+C:\Users\PC_WIN10\source\repos\municipalities\obj\Debug\net6.0-windows\municipalitiesReports.pdb
+C:\Users\PC_WIN10\source\repos\municipalities\bin\Debug\net6.0-windows\municipalitiesReports.exe
+C:\Users\PC_WIN10\source\repos\municipalities\bin\Debug\net6.0-windows\municipalitiesReports.deps.json
+C:\Users\PC_WIN10\source\repos\municipalities\bin\Debug\net6.0-windows\municipalitiesReports.runtimeconfig.json
+C:\Users\PC_WIN10\source\repos\municipalities\bin\Debug\net6.0-windows\municipalitiesReports.dll
+C:\Users\PC_WIN10\source\repos\municipalities\bin\Debug\net6.0-windows\ref\municipalitiesReports.dll
+C:\Users\PC_WIN10\source\repos\municipalities\bin\Debug\net6.0-windows\municipalitiesReports.pdb
+C:\Users\PC_WIN10\source\repos\municipalities\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\PC_WIN10\source\repos\municipalities\obj\Debug\net6.0-windows\municipalitiesReports.g.resources
+C:\Users\PC_WIN10\source\repos\municipalities\obj\Debug\net6.0-windows\municipalitiesReports.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC_WIN10\source\repos\municipalities\obj\Debug\net6.0-windows\municipalitiesReports.AssemblyInfoInputs.cache
+C:\Users\PC_WIN10\source\repos\municipalities\obj\Debug\net6.0-windows\municipalitiesReports.AssemblyInfo.cs
+C:\Users\PC_WIN10\source\repos\municipalities\obj\Debug\net6.0-windows\municipalitiesReports.csproj.CoreCompileInputs.cache
+C:\Users\PC_WIN10\source\repos\municipalities\obj\Debug\net6.0-windows\municipalitiesReports.genruntimeconfig.cache
