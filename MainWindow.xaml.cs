@@ -17,6 +17,9 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Microsoft.Win32;
+using LiveCharts;
+using LiveCharts.Defaults;
+using LiveCharts.Wpf;
 
 namespace municipalitiesReports
 {
@@ -30,7 +33,33 @@ namespace municipalitiesReports
             
             InitializeComponent();
             fillComboBox();
+            seriesCollection = new SeriesCollection
+            {
+                new PieSeries
+                {
+                    Title = "Municipio",
+                    Values = new ChartValues<ObservableValue>{new ObservableValue(0)},
+                    DataLabels = true
+                },
+                 new PieSeries
+                {
+                    Title = "Isla",
+                    Values = new ChartValues<ObservableValue>{new ObservableValue(0)},
+                    DataLabels = true
+                },
+                 new PieSeries
+                {
+                    Title = "Area no municipada",
+                    Values = new ChartValues<ObservableValue>{new ObservableValue(0)},
+                    DataLabels = true
+                }
+            };
+
+            DataContext = this;
+
         }
+
+        public SeriesCollection seriesCollection { get; set; }
 
         /*static void Main(String[] args) {
             InitializeComponent();
@@ -81,6 +110,8 @@ namespace municipalitiesReports
 
         private void sorting(object sender, RoutedEventArgs e)
         {
+ 
+            int serie1 = 0 , serie2 = 0 , serie3 = 0, nothing = 0;
             if (municipalities != null)
             {
                 List<Municipalities> newList = new List<Municipalities>();
@@ -96,9 +127,47 @@ namespace municipalitiesReports
 
 
                     } 
+                }
+
+                tableView.ItemsSource = newList;
+                foreach (Municipalities municipal in newList)
+                {
+                    if (municipal.Tipo.Equals("Municipio"))
+                    {
+                        serie1++;
+                    }
+                    else if (municipal.Tipo.Equals("Isla"))
+                    {
+                        serie2++;
+                    }
+                    else if (municipal.Tipo.Equals("Área no municipalizada"))
+                    {
+                        serie3++;
+                    }
 
                 }
-                tableView.ItemsSource = newList;
+                pieChart.Series = new SeriesCollection
+             {
+                   new PieSeries
+                {
+                    Title = "Municipio",
+                    Values = new ChartValues<ObservableValue>{new ObservableValue(serie1)},
+                    DataLabels = true
+                },
+                 new PieSeries
+                {
+                    Title = "Isla",
+                    Values = new ChartValues<ObservableValue>{new ObservableValue(serie2)},
+                    DataLabels = true
+                },
+                 new PieSeries
+                {
+                    Title = "Area no municipada",
+                    Values = new ChartValues<ObservableValue>{new ObservableValue(serie3)},
+                    DataLabels = true
+                },
+             };
+
             }
             else {
                 MessageBox.Show("No hay datos que filtrar");
@@ -116,7 +185,9 @@ namespace municipalitiesReports
                 MessageBox.Show("No hay nada que refrescar");
             }
             
-        }
+          }
+
+        
 
         /*public static void import() {
             if (selectImport) {

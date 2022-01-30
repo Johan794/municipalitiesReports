@@ -19,9 +19,14 @@
 
         </DataGrid>
         <ComboBox HorizontalAlignment="Left" Margin="684,37,0,0" VerticalAlignment="Top" Width="120" Name="comboBox1"/>
-        <Button x:Name="sort" Content="Filtrar" HorizontalAlignment="Left" Margin="744,162,0,0" VerticalAlignment="Top" Click="sorting"/>
-        <Button Content="Refrescar" HorizontalAlignment="Left" Margin="741,217,0,0" VerticalAlignment="Top" Click="refresh"/>
+        <Button x:Name="sort" Content="Filtrar" HorizontalAlignment="Left" Margin="855,39,0,0" VerticalAlignment="Top" Click="sorting" RenderTransformOrigin="1.901,-2.403"/>
+        <lvc:PieChart Margin="640,92,142,82" Grid.RowSpan="2" LegendLocation="Bottom" Series="{Binding seriesCollection}" Hoverable="True" Name="pieChart">
+
+
+        </lvc:PieChart>
+        <Button Content="Refrescar" HorizontalAlignment="Left" Margin="931,37,0,0" VerticalAlignment="Top" Click="refresh"/>
     </Grid>
+
 
 
 </Window>
