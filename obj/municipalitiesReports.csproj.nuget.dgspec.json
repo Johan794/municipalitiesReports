@@ -43,6 +43,10 @@
             "DotNetProjects.WpfToolkit.DataVisualization": {
               "target": "Package",
               "version": "[6.1.94, )"
+            },
+            "LiveCharts.Wpf": {
+              "target": "Package",
+              "version": "[0.9.7, )"
             }
           },
           "imports": [
