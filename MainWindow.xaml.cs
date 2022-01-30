@@ -17,6 +17,9 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Microsoft.Win32;
+using LiveCharts;
+using LiveCharts.Defaults;
+using LiveCharts.Wpf;
 
 namespace municipalitiesReports
 {
@@ -29,7 +32,40 @@ namespace municipalitiesReports
         {
             InitializeComponent();
             fillComboBox();
+            seriesCollection = new SeriesCollection
+            {
+                new PieSeries
+                {
+                    Title = "Municipio",
+                    Values = new ChartValues<ObservableValue>{new ObservableValue(0)},
+                    DataLabels = true
+                },
+                 new PieSeries
+                {
+                    Title = "Isla",
+                    Values = new ChartValues<ObservableValue>{new ObservableValue(0)},
+                    DataLabels = true
+                },
+                 new PieSeries
+                {
+                    Title = "Area no municipada",
+                    Values = new ChartValues<ObservableValue>{new ObservableValue(0)},
+                    DataLabels = true
+                },
+
+                 new PieSeries
+                {
+                    Title = "Sin valor",
+                    Values = new ChartValues<ObservableValue>{new ObservableValue(0)},
+                    DataLabels = true
+                }
+            };
+
+            DataContext = this;
+
         }
+
+        public SeriesCollection seriesCollection { get; set; }
 
         /*static void Main(String[] args) {
             InitializeComponent();
@@ -115,6 +151,11 @@ namespace municipalitiesReports
                             Tipo = data[4]
                         };
             return query.ToList();
+        }
+
+        private void PieChart_DataClick(object sender, LiveCharts.ChartPoint chartPoint)
+        {
+
         }
 
         /*public static void import() {

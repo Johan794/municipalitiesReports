@@ -19,7 +19,8 @@
 
         </DataGrid>
         <ComboBox HorizontalAlignment="Left" Margin="684,37,0,0" VerticalAlignment="Top" Width="120" Name="comboBox1"/>
-        <lvc:PieChart Margin="646,87,136,87" Grid.RowSpan="2" LegendLocation="Bottom" Series="{Binding SeriesCollection}">
+        <lvc:PieChart Margin="646,87,136,87" Grid.RowSpan="2" LegendLocation="Bottom" Series="{Binding seriesCollection}" DataClick="PieChart_DataClick" Hoverable="True">
+            
             
         </lvc:PieChart>
     </Grid>
