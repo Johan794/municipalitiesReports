@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:municipalitiesReports"
         xmlns:DVC="clr-namespace:System.Windows.Controls.DataVisualization.Charting;assembly=DotNetProjects.DataVisualization.Toolkit"
+        xmlns:lvc ="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="1130">
     <Grid Margin="0,0,-59,0" RenderTransformOrigin="0.5,0.5" Cursor="Hand">
 
         <Grid.RowDefinitions>
@@ -17,6 +18,8 @@
         <DataGrid x:Name="tableView" Margin="29,87,0,87" HorizontalAlignment="Left" FontWeight="Bold" FontStyle="Oblique" Grid.RowSpan="2" Width="567">
 
         </DataGrid>
+        <ComboBox HorizontalAlignment="Left" Margin="684,37,0,0" VerticalAlignment="Top" Width="120" Name="comboBox1"/>
+        <Button x:Name="sort" Content="Filtrar" HorizontalAlignment="Left" Margin="744,162,0,0" VerticalAlignment="Top" Click="sorting"/>
     </Grid>
 
 
