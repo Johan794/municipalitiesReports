@@ -46,11 +46,13 @@ namespace municipalitiesReports
         private void import_Click(object sender, EventArgs e) {
             OpenFileDialog open = new OpenFileDialog();
             open.ShowDialog();
-            tableView.DataContext =LoadCSV(open.FileName);
+            tableView.ItemsSource = LoadCSV(open.FileName);
         }
 
-        private void initializeTableview() { 
-            
+        private void initializeTableview() {
+            for (int i=0;i<10;i++) {
+                
+            }
         }
 
         private void import() {
@@ -96,11 +98,11 @@ namespace municipalitiesReports
                         let data = l.Split(';')
                         select new Municipalities
                         {
-                            departamentCode = data[0],
-                            municipaliteCode = data[1],
-                            departamentName = data[2],
-                            municipaliteName = data[3],
-                            type = data[4]
+                            Codigo_Departamento = data[0],
+                            Codigo_municipio = data[1],
+                            Nombre_Departamento = data[2],
+                            Nombre_Municipio = data[3],
+                            Tipo = data[4]
                         };
             return query.ToList();
         }
@@ -115,14 +117,14 @@ namespace municipalitiesReports
     }
 
     public class Municipalities { 
-        public string departamentCode { get; set; }
+        public string Codigo_Departamento { get; set; }
 
-        public string municipaliteCode { get; set; }
+        public string Codigo_municipio { get; set; }
 
-        public string departamentName { get; set; }
+        public string Nombre_Departamento { get; set; }
 
-        public string municipaliteName { get; set; }
+        public string Nombre_Municipio { get; set; }
 
-        public string type { get; set; }
+        public string Tipo { get; set; }
     }
 }

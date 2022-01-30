@@ -15,13 +15,7 @@
         </Grid.RowDefinitions>
         <Button Content="Import" Click="import_Click" HorizontalAlignment="Left" Margin="40,29,0,0" VerticalAlignment="Top" Height="30" Width="109"/>
         <DataGrid x:Name="tableView" Margin="29,87,0,87" HorizontalAlignment="Left" FontWeight="Bold" FontStyle="Oblique" Grid.RowSpan="2" Width="567">
-            <DataGrid.Columns>
-                <DataGridTextColumn x:Name="column1" Header="Codigo Departamento"/>
-                <DataGridTextColumn x:Name="column2" Header="Codigo Municipio"/>
-                <DataGridTextColumn x:Name="column3" Header="Nombre Departamento"/>
-                <DataGridTextColumn x:Name="column4" Header="Nombre Municipio"/>
-                <DataGridTextColumn x:Name="column5" Header="Tipo"/>
-            </DataGrid.Columns>
+
         </DataGrid>
     </Grid>
 
