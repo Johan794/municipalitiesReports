@@ -100,19 +100,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PC_WIN10\\.nuget\\packages\\": {}
+    "C:\\Users\\johan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC_WIN10\\source\\repos\\municipalities\\municipalitiesReports.csproj",
+      "projectUniqueName": "C:\\Users\\johan\\OneDrive\\Escritorio\\ICESI\\Quinto Semestre de Ingenieria de sistemas\\Talleres\\Proyecto integrador I\\Taller C#\\municipalitiesReports\\municipalitiesReports.csproj",
       "projectName": "municipalitiesReports",
-      "projectPath": "C:\\Users\\PC_WIN10\\source\\repos\\municipalities\\municipalitiesReports.csproj",
-      "packagesPath": "C:\\Users\\PC_WIN10\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC_WIN10\\source\\repos\\municipalities\\obj\\",
+      "projectPath": "C:\\Users\\johan\\OneDrive\\Escritorio\\ICESI\\Quinto Semestre de Ingenieria de sistemas\\Talleres\\Proyecto integrador I\\Taller C#\\municipalitiesReports\\municipalitiesReports.csproj",
+      "packagesPath": "C:\\Users\\johan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\johan\\OneDrive\\Escritorio\\ICESI\\Quinto Semestre de Ingenieria de sistemas\\Talleres\\Proyecto integrador I\\Taller C#\\municipalitiesReports\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\PC_WIN10\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\johan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
